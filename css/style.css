@@ -1,0 +1,107 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-width: 20rem;
+    color: #1d1d1d;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+section {
+    padding: 6.25rem 0;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 2.6rem;
+    font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 2.75rem;
+    margin-bottom: 2rem;
+}
+
+/* =============================header============================== */
+.main-header {
+    background: url(../img/main.jpg) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 37.5rem;
+    position: relative;
+}
+
+.main-header .navbar-brand,
+.main-header ul li a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.main-header .navbar-brand {
+    font-size: 2.5rem;
+}
+
+.main-header ul li a {
+    font-size: 1rem;
+}
+
+.main-header ul li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+.main-header ul li a:hover::after {
+    transform: scale(1);
+}
+
+.main-header-text {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    max-width: 37.5rem;
+    color: #fff;
+    padding: 1.25rem;
+}
+
+.main-header-buttons {
+    padding-left: 1.9rem;
+}
+
+.btn {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.main-header-buttons .btn {
+    height: 3.75rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-right: 1.25rem;
+    margin-top: 1.9rem;
+    opacity: .8;
+    box-shadow: 0 .25rem 1rem rgba(0, 0, 0, .35);
+    transition: all .5s;
+}
+
+.main-header-buttons .btn:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.btn-pink {
+    background-color: #f42267;
+}
+
+.btn-violet {
+    background-color: #69328e;
+}
