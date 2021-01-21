@@ -30,8 +30,12 @@ h4 {
     background: url(../img/main.jpg) center no-repeat;
     background-size: cover;
     height: 100vh;
-    min-height: 37.5rem;
+    min-height: 43.75rem;
     position: relative;
+}
+
+.main-header .navbar-toggler {
+    color: #fff;
 }
 
 .main-header .navbar-brand,
@@ -104,4 +108,68 @@ h4 {
 
 .btn-violet {
     background-color: #69328e;
+}
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .main-header-text {
+        background-color: rgba(0, 0, 0, .3);
+    }
+
+    .navbar-nav {
+        background: linear-gradient(45deg, #ed1b33 0%, #442e82 100%);
+        position: relative;
+        z-index: 1;
+        padding: 0 15px;
+    }
+
+    .main-header ul li a::after {
+        display: none;
+    }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .main-header-text {
+        left: 0;
+        margin: 0 1.25rem;
+        max-width: 100%;
+    }
+
+    h3,
+    h4 {
+        font-size: 1.9rem;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    .main-header-text {
+        top: 5.6rem;
+    }
+
+    .main-header-buttons .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .main-header-buttons .btn:last-child {
+        margin-top: 0;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {}
+
+@media only screen and (max-width : 380px) {
+    .main-header .navbar-brand {
+        font-size: 1.9rem;
+    }
 }
