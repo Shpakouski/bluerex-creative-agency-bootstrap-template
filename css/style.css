@@ -153,6 +153,39 @@ h4 {
     background-color: #da1757;
 }
 
+/* =============================section-progress============================== */
+.section-progress {
+    background-color: #4b2d7f;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0;
+}
+
+.section-progress i {
+    font-size: 4.4rem;
+}
+
+.section-progress .num {
+    font-size: 3.1rem;
+    font-weight: 600;
+    margin: 30px 0 1.25rem;
+}
+
+.section-progress h4 {
+    font-size: 1.9rem;
+    height: 4.5rem;
+    overflow: hidden;
+}
+
+.section-progress .progress-item {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    transition: all .5s;
+}
+
+.section-progress .progress-item:hover {
+    background-color: #40286a;
+}
 
 
 
@@ -196,6 +229,11 @@ h4 {
     h3,
     h4 {
         font-size: 1.9rem;
+    }
+
+    .section-progress .progress-item {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
     }
 }
 
