@@ -403,6 +403,44 @@ h4 {
 }
 
 
+/* ============================= scrollToTop btn ============================== */
+.scrollToTop {
+    position: fixed;
+    bottom: 2.75rem;
+    right: 2.12rem;
+    border-radius: 1.6rem;
+    display: none;
+    font-size: 2rem;
+    height: 3.12rem;
+    width: 3.12rem;
+    z-index: 1001;
+    color: #fff;
+    transition: all .5s;
+    background-color: #da1757;
+    border: 0;
+    cursor: pointer;
+}
+
+.scrollToTop:hover {
+    background-color: #fff;
+    text-decoration: none;
+    outline: none;
+    color: #da1757;
+    border: 1px solid #da1757;
+}
+
+
+/* ============================= preloader ============================== */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: #fefefe;
+}
+
 
 /* ============================= Media ============================== */
 
