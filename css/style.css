@@ -292,6 +292,58 @@ h4 {
     left: -2rem;
 }
 
+
+/* =============================section-form============================== */
+.section-form {
+    background: url(../img/form_bg.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.section-form h5 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.section-form form {
+    margin-top: 3.1rem;
+}
+
+.section-form .btn-violet {
+    background-color: #4b2d7f;
+}
+
+.btn-violet.btn-shadow {
+    box-shadow: 0 .5rem 0px #a57ee9;
+}
+
+.btn-violet.btn-shadow:hover {
+    background: #3a2362;
+    box-shadow: 0 .3rem 0px #a57ee9;
+}
+
+.section-form .form-control {
+    height: 3.2rem;
+    background-color: rgba(255, 255, 255, .35);
+    color: #fff;
+    border: 0;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.section-form .form-control::placeholder {
+    color: #fff;
+}
+
+.section-form .form-control:focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
+}
+
+
+
+
 /* ============================= Media ============================== */
 
 
