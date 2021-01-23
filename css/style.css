@@ -342,6 +342,66 @@ h4 {
 }
 
 
+/* =============================.footer============================== */
+.footer {
+    background: url(../img/world_map.png) center no-repeat;
+    background-size: cover;
+    padding: 6.25rem 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer h5 {
+    font-size: 1.5rem;
+    color: #4b2d7f;
+    font-weight: 700;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: .62rem;
+}
+
+.footer ul li a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #171717;
+}
+
+.footer-images img {
+    margin-bottom: 1.25rem;
+    border-radius: 1rem;
+}
+
+.copyright {
+    background-color: #f6f6f6;
+    padding: 3.1rem 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyright a,
+.copyright span {
+    color: #171717;
+    font-size: 1.12rem;
+    font-weight: 600;
+    position: relative;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
+
+.copyright li a::after,
+.copyright li span::after {
+    content: '\00B7';
+    position: absolute;
+    right: -.2rem;
+}
+
+.copyright li:last-child a::after,
+.copyright li:last-child span::after {
+    content: '';
+}
+
 
 
 /* ============================= Media ============================== */
@@ -367,8 +427,13 @@ h4 {
         display: none;
     }
 
-    section {
+    section,
+    .footer {
         padding: 3.1rem 0;
+    }
+
+    .copyright {
+        padding: 1.5rem 0;
     }
 
     .section-reviews h3,
