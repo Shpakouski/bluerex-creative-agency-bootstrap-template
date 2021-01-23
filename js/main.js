@@ -1,3 +1,7 @@
+$(function () {
+    baguetteBox.run('.gallery');
+});
+
 $('#videoPlayBtn').on('click', function (e) {
     e.preventDefault();
     $("#videoPlayer")[0].src += "?autoplay=1";
